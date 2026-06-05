@@ -1,0 +1,28 @@
+there are three ways of inserting an element in list 
+1)append
+lst = [10, 20, 30]
+lst.append(40)
+
+2)insert
+lst = [10, 20, 30]
+lst.insert(1, 15)
+
+3)extend
+lst = [10, 20]
+lst.extend([30, 40, 50])
+
+append adds one element at the end 
+insert adds an element at a specific position
+extend adds multiple elements 
+
+*in append python checks if the list has enough unused space and 
+If space is available, it places 40 in the next free slot and if not Python allocates a larger
+memory block, copies existing elements, and then adds 40.
+
+*in insert python finds the index and from the index elemts are shifted one position right 
+and the new element is placed in the empty spoace and if the memeory is fullresizing may occur.
+
+*in extend python determines how many new elements are coming.
+It checks whether sufficient space exists.
+If needed, it allocates a larger memory block.
+Each element is copied into the list one by one.
