@@ -1,0 +1,24 @@
+1. Insertion at the Beginning
+Before: [20, 30, 40]
+Insert 10
+After : [10, 20, 30, 40]
+All existing elements are shifted one position to the right.
+
+2. Insertion at a Specific Position (Middle)
+Before: [10, 20, 40]
+Insert 30 at index 2
+After : [10, 20, 30, 40]
+Elements from that position onward are shifted right.
+
+3. Insertion at the End
+Before: [10, 20, 30]
+Insert 40
+After : [10, 20, 30, 40]
+No shifting required (if space is available).
+Time Complexity: O(1)
+
+So, in Data Structures, array insertion is generally classified into 3 types:
+
+Insertion at the beginning
+Insertion at a specific position (middle)
+Insertion at the end
