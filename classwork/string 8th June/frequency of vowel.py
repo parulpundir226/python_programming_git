@@ -1,3 +1,5 @@
+# wap to find out input a senetnce and display the frequnecy of vowel present in that senetece ignoring the given sentence
+
 s = input("Enter a sentence: ")
 
 count = 0
