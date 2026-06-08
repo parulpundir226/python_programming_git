@@ -1,3 +1,5 @@
+# write aprogarm to input a string or semntece from user and count the number of char present in it without using len fuction
+
 # Input a string or sentence from the user
 text = input("Enter a string or sentence: ")
 
